@@ -145,10 +145,14 @@ CUSTOM_CSS = """
         background: rgba(255,255,255,0.8) !important;
         color: #4a3f5c !important;
     }
-    .stSelectbox > div > div {
+    .stSelectbox > div > div,
+    .stSelectbox [data-baseweb="select"],
+    .stSelectbox [data-baseweb="select"] > div,
+    .stSelectbox [data-baseweb="select"] > div:first-child {
         border-radius: 12px !important;
         border: 1.5px solid rgba(236,64,122,0.3) !important;
         background: rgba(255,255,255,0.8) !important;
+        color: #4a3f5c !important;
     }
 
     /* ── Chart containers ── */
