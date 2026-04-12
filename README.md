@@ -10,7 +10,7 @@ CineMetric is a professional Python-based movie rating prediction system. It lev
 
 - **Jupyter Notebook Workflow**: End-to-end ML pipeline from data cleaning to model evaluation.
 - **Streamlit Web App**: A sleek, dark-themed dashboard for real-time predictions.
-- **Advanced Feature Engineering**: 
+- **Advanced Feature Engineering**:
   - **Multi-label Binarization** for handling movies with multiple genres.
   - **Label Encoding** for directors and lead actors.
 - **Random Forest Prediction**: Uses a Random Forest Regressor for robust and interpretable score calculation.
