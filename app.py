@@ -137,14 +137,24 @@ CUSTOM_CSS = """
         transform: translateY(-2px) !important;
     }
 
-    /* ── Input widgets ── */
-    .stTextInput > div > div > input,
-    .stTextArea textarea {
+    /* ── Input widgets — all fields unified ── */
+    /* Text input container */
+    .stTextInput > div > div,
+    .stTextInput > div > div > input {
         border-radius: 12px !important;
         border: 1.5px solid rgba(236,64,122,0.3) !important;
         background: rgba(255,255,255,0.8) !important;
         color: #4a3f5c !important;
     }
+    /* Textarea container */
+    .stTextArea > div > div,
+    .stTextArea > div > div > textarea {
+        border-radius: 12px !important;
+        border: 1.5px solid rgba(236,64,122,0.3) !important;
+        background: rgba(255,255,255,0.8) !important;
+        color: #4a3f5c !important;
+    }
+    /* Selectbox container — all levels */
     .stSelectbox > div > div,
     .stSelectbox [data-baseweb="select"],
     .stSelectbox [data-baseweb="select"] > div,
